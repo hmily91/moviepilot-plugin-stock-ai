@@ -40,7 +40,7 @@ from app.sdk import scheduler as scheduler_sdk  # 宿主调度器（用于一次
 # 常量定义
 # --------------------------------------------------------------------------- #
 
-# 配置项默认值（与 plugin.json 的 config_schema 保持一致）
+# 配置项默认值（与 plugin.json 的 config / schema 保持一致）
 DEFAULT_CONFIG: Dict[str, Any] = {
     "enabled": False,                 # 启用插件
     "onlyonce": False,                # 立即执行一次
