@@ -1,12 +1,12 @@
 {
-  "id": "StockAi",
+  "id": "stockai",
   "name": "股票AI分析助手",
-  "version": "1.0.0",
-  "author": "MoviePilot-StockAi",
+  "version": "1.1.0",
+  "author": "hmily91",
   "description": "获取沪深A股实时行情与近5日K线，复用系统「智能助手」或自定义LLM接口进行技术面/短期走势/风险提示分析，并定时推送早盘预判与收盘报告。",
-  "icon": "StockAi.png",
+  "icon": "https://raw.githubusercontent.com/hmily91/moviepilot-plugin-stock-ai/main/icons/stockai.png",
   "system_version": ">=3.0.0",
-  "homepage": "https://github.com/your-name/moviepilot-plugin-stock-ai",
+  "homepage": "https://github.com/hmily91/moviepilot-plugin-stock-ai",
   "tags": ["股票", "A股", "AI分析", "定时推送"],
   "config_schema": {
     "enabled": {
